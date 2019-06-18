@@ -1,0 +1,38 @@
+{
+    "name": "vmpublishing/psr15-middleware-error-handler",
+    "description": "dependency-less middleware to capture and process any throwable with a dedicated error handler",
+    "type": "library",
+    "keywords": [
+        "error",
+        "psr-7",
+        "psr-15",
+        "slim",
+        "exception"
+    ],
+    "require": {
+        "php": ">=7.2",
+        "psr/http-server-middleware": "*@stable",
+        "fig/http-message-util": "*@stable"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*@stable",
+        "vmpublishing/psr15-middleware-test-helpers": "*@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "VM\\ErrorHandler\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "VM\\ErrorHandler\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dirk Gustke",
+            "email": "dirk.gustke@verticalmedia.com"
+        }
+    ]
+}
