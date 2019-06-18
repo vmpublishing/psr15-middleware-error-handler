@@ -16,6 +16,8 @@ class ErrorProcessorTest extends TestCase
 {
     use Middleware;
 
+    private $errorHandler;
+
     public function setUp(): void
     {
         $this->buildRequest();
