@@ -14,5 +14,4 @@ class FailedDependencyTest extends TestCase
         $exception = new FailedDependency();
         $this->assertEquals(FailedDependency::STATUS_FAILED_DEPENDENCY, $exception->getHttpStatusCode());
     }
-
 }

@@ -14,5 +14,4 @@ class RequestTimeoutTest extends TestCase
         $exception = new RequestTimeout();
         $this->assertEquals(RequestTimeout::STATUS_REQUEST_TIMEOUT, $exception->getHttpStatusCode());
     }
-
 }

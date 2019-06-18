@@ -14,5 +14,4 @@ class NotImplementedTest extends TestCase
         $exception = new NotImplemented();
         $this->assertEquals(NotImplemented::STATUS_NOT_IMPLEMENTED, $exception->getHttpStatusCode());
     }
-
 }

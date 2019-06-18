@@ -14,5 +14,4 @@ class PreconditionRequiredTest extends TestCase
         $exception = new PreconditionRequired();
         $this->assertEquals(PreconditionRequired::STATUS_PRECONDITION_REQUIRED, $exception->getHttpStatusCode());
     }
-
 }

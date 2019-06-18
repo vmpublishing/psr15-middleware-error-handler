@@ -14,5 +14,4 @@ class NotExtendedTest extends TestCase
         $exception = new NotExtended();
         $this->assertEquals(NotExtended::STATUS_NOT_EXTENDED, $exception->getHttpStatusCode());
     }
-
 }

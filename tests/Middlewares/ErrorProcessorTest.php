@@ -5,13 +5,12 @@ declare(strict_types=1);
 namespace VM\ErrorHandler\Tests\Middlewares;
 
 use PHPUnit\Framework\TestCase;
-use VM\Psr15Mocks\Middleware;
-use VM\ErrorHandler\Services\RethrowHandler;
-use VM\ErrorHandler\Middlewares\ErrorProcessor;
-use VM\ErrorHandler\Interfaces\ErrorHandler;
 use Psr\Http\Message\ResponseInterface;
-use VM\ErrorHandler\Exceptions\Http\Forbidden;
 use TypeError;
+use VM\ErrorHandler\Exceptions\Http\Forbidden;
+use VM\ErrorHandler\Interfaces\ErrorHandler;
+use VM\ErrorHandler\Middlewares\ErrorProcessor;
+use VM\Psr15Mocks\Middleware;
 
 class ErrorProcessorTest extends TestCase
 {

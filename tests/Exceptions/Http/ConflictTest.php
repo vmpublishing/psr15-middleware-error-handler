@@ -14,5 +14,4 @@ class ConflictTest extends TestCase
         $exception = new Conflict();
         $this->assertEquals(Conflict::STATUS_CONFLICT, $exception->getHttpStatusCode());
     }
-
 }

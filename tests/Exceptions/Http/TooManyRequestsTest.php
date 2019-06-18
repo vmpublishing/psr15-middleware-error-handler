@@ -14,5 +14,4 @@ class TooManyRequestsTest extends TestCase
         $exception = new TooManyRequests();
         $this->assertEquals(TooManyRequests::STATUS_TOO_MANY_REQUESTS, $exception->getHttpStatusCode());
     }
-
 }

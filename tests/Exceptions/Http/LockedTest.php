@@ -14,5 +14,4 @@ class LockedTest extends TestCase
         $exception = new Locked();
         $this->assertEquals(Locked::STATUS_LOCKED, $exception->getHttpStatusCode());
     }
-
 }

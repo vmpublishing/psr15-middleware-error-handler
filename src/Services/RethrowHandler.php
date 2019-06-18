@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace VM\ErrorHandler\Services;
 
-use VM\ErrorHandler\Interfaces\ErrorHandler;
-use VM\ErrorHandler\Exceptions\HttpException;
-use Throwable;
 use Psr\Http\Message\ResponseInterface as Response;
+use Throwable;
+use VM\ErrorHandler\Exceptions\HttpException;
+use VM\ErrorHandler\Interfaces\ErrorHandler;
 
 class RethrowHandler implements ErrorHandler
 {

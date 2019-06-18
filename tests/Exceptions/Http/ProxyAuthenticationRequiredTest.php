@@ -14,5 +14,4 @@ class ProxyAuthenticationRequiredTest extends TestCase
         $exception = new ProxyAuthenticationRequired();
         $this->assertEquals(ProxyAuthenticationRequired::STATUS_PROXY_AUTHENTICATION_REQUIRED, $exception->getHttpStatusCode());
     }
-
 }

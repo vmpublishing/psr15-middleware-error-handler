@@ -14,5 +14,4 @@ class ExpectationFailedTest extends TestCase
         $exception = new ExpectationFailed();
         $this->assertEquals(ExpectationFailed::STATUS_EXPECTATION_FAILED, $exception->getHttpStatusCode());
     }
-
 }

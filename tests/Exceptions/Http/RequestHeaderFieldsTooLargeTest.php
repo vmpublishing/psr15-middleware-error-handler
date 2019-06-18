@@ -14,5 +14,4 @@ class RequestHeaderFieldsTooLargeTest extends TestCase
         $exception = new RequestHeaderFieldsTooLarge();
         $this->assertEquals(RequestHeaderFieldsTooLarge::STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE, $exception->getHttpStatusCode());
     }
-
 }

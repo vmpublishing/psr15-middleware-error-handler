@@ -14,5 +14,4 @@ class MethodNotAllowedTest extends TestCase
         $exception = new MethodNotAllowed();
         $this->assertEquals(MethodNotAllowed::STATUS_METHOD_NOT_ALLOWED, $exception->getHttpStatusCode());
     }
-
 }

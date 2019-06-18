@@ -14,5 +14,4 @@ class NotAcceptableTest extends TestCase
         $exception = new NotAcceptable();
         $this->assertEquals(NotAcceptable::STATUS_NOT_ACCEPTABLE, $exception->getHttpStatusCode());
     }
-
 }

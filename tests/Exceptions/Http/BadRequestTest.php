@@ -14,5 +14,4 @@ class BadRequestTest extends TestCase
         $exception = new BadRequest();
         $this->assertEquals(BadRequest::STATUS_BAD_REQUEST, $exception->getHttpStatusCode());
     }
-
 }

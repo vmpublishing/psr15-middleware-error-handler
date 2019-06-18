@@ -6,8 +6,8 @@ namespace VM\ErrorHandler\Tests\Services;
 
 use PHPUnit\Framework\TestCase;
 use TypeError;
-use VM\ErrorHandler\Exceptions\HttpException;
 use VM\ErrorHandler\Exceptions\Http\Forbidden;
+use VM\ErrorHandler\Exceptions\HttpException;
 use VM\ErrorHandler\Services\RethrowHandler;
 
 class RethrowHandlerTest extends TestCase

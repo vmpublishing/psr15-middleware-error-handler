@@ -4,13 +4,12 @@ declare(strict_types=1);
 
 namespace VM\ErrorHandler\Tests\Services;
 
-use PHPUnit\Framework\TestCase;
-use VM\ErrorHandler\Exceptions\HttpException;
-use VM\ErrorHandler\Exceptions\Http\NotFound;
-use VM\ErrorHandler\Exceptions\Http\Forbidden;
-use TypeError;
-use RuntimeException;
 use Fig\Http\Message\StatusCodeInterface;
+use PHPUnit\Framework\TestCase;
+use RuntimeException;
+use TypeError;
+use VM\ErrorHandler\Exceptions\Http\Forbidden;
+use VM\ErrorHandler\Exceptions\Http\NotFound;
 use VM\ErrorHandler\Services\StaticFileHandler;
 use VM\Psr15Mocks\Middleware;
 

@@ -14,5 +14,4 @@ class ServiceUnavailableTest extends TestCase
         $exception = new ServiceUnavailable();
         $this->assertEquals(ServiceUnavailable::STATUS_SERVICE_UNAVAILABLE, $exception->getHttpStatusCode());
     }
-
 }

@@ -14,5 +14,4 @@ class UriTooLongTest extends TestCase
         $exception = new UriTooLong();
         $this->assertEquals(UriTooLong::STATUS_URI_TOO_LONG, $exception->getHttpStatusCode());
     }
-
 }

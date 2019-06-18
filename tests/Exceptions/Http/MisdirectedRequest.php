@@ -14,5 +14,4 @@ class MisdirectedRequestTest extends TestCase
         $exception = new MisdirectedRequest();
         $this->assertEquals(MisdirectedRequest::STATUS_MISDIRECTED_REQUEST, $exception->getHttpStatusCode());
     }
-
 }

@@ -14,5 +14,4 @@ class UnsupportedMediaTypeTest extends TestCase
         $exception = new UnsupportedMediaType();
         $this->assertEquals(UnsupportedMediaType::STATUS_UNSUPPORTED_MEDIA_TYPE, $exception->getHttpStatusCode());
     }
-
 }

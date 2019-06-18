@@ -14,5 +14,4 @@ class ForbiddenTest extends TestCase
         $exception = new Forbidden();
         $this->assertEquals(Forbidden::STATUS_FORBIDDEN, $exception->getHttpStatusCode());
     }
-
 }

@@ -14,5 +14,4 @@ class NotFoundTest extends TestCase
         $exception = new NotFound();
         $this->assertEquals(NotFound::STATUS_NOT_FOUND, $exception->getHttpStatusCode());
     }
-
 }

@@ -14,5 +14,4 @@ class GatewayTimeoutTest extends TestCase
         $exception = new GatewayTimeout();
         $this->assertEquals(GatewayTimeout::STATUS_GATEWAY_TIMEOUT, $exception->getHttpStatusCode());
     }
-
 }

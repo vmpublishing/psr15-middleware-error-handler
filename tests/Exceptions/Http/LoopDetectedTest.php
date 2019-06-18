@@ -14,5 +14,4 @@ class LoopDetectedTest extends TestCase
         $exception = new LoopDetected();
         $this->assertEquals(LoopDetected::STATUS_LOOP_DETECTED, $exception->getHttpStatusCode());
     }
-
 }

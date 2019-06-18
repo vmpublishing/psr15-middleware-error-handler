@@ -14,5 +14,4 @@ class PayloadTooLargeTest extends TestCase
         $exception = new PayloadTooLarge();
         $this->assertEquals(PayloadTooLarge::STATUS_PAYLOAD_TOO_LARGE, $exception->getHttpStatusCode());
     }
-
 }

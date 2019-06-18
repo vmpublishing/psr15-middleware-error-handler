@@ -14,5 +14,4 @@ class GoneTest extends TestCase
         $exception = new Gone();
         $this->assertEquals(Gone::STATUS_GONE, $exception->getHttpStatusCode());
     }
-
 }

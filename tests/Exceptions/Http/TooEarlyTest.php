@@ -14,5 +14,4 @@ class TooEarlyTest extends TestCase
         $exception = new TooEarly();
         $this->assertEquals(TooEarly::STATUS_TOO_EARLY, $exception->getHttpStatusCode());
     }
-
 }

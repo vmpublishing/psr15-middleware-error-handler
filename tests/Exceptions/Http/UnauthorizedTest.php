@@ -14,5 +14,4 @@ class UnauthorizedTest extends TestCase
         $exception = new Unauthorized();
         $this->assertEquals(Unauthorized::STATUS_UNAUTHORIZED, $exception->getHttpStatusCode());
     }
-
 }

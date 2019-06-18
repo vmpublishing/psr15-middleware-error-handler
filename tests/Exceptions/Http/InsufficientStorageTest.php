@@ -14,5 +14,4 @@ class InsufficientStorageTest extends TestCase
         $exception = new InsufficientStorage();
         $this->assertEquals(InsufficientStorage::STATUS_INSUFFICIENT_STORAGE, $exception->getHttpStatusCode());
     }
-
 }

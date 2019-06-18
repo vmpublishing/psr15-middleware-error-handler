@@ -14,5 +14,4 @@ class HttpExceptionTest extends TestCase
         $exception = new HttpException();
         $this->assertEquals(HttpException::STATUS_INTERNAL_SERVER_ERROR, $exception->getHttpStatusCode());
     }
-
 }

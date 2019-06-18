@@ -14,5 +14,4 @@ class ImATeapotTest extends TestCase
         $exception = new ImATeapot();
         $this->assertEquals(ImATeapot::STATUS_IM_A_TEAPOT, $exception->getHttpStatusCode());
     }
-
 }

@@ -14,5 +14,4 @@ class RangeNotSatisfiableTest extends TestCase
         $exception = new RangeNotSatisfiable();
         $this->assertEquals(RangeNotSatisfiable::STATUS_RANGE_NOT_SATISFIABLE, $exception->getHttpStatusCode());
     }
-
 }

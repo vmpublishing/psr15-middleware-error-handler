@@ -14,5 +14,4 @@ class VersionNotSupportedTest extends TestCase
         $exception = new VersionNotSupported();
         $this->assertEquals(VersionNotSupported::STATUS_VERSION_NOT_SUPPORTED, $exception->getHttpStatusCode());
     }
-
 }

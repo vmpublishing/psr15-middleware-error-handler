@@ -14,5 +14,4 @@ class NetworkAuthenticationRequiredTest extends TestCase
         $exception = new NetworkAuthenticationRequired();
         $this->assertEquals(NetworkAuthenticationRequired::STATUS_NETWORK_AUTHENTICATION_REQUIRED, $exception->getHttpStatusCode());
     }
-
 }

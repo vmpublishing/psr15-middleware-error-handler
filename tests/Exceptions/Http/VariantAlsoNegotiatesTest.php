@@ -14,5 +14,4 @@ class VariantAlsoNegotiatesTest extends TestCase
         $exception = new VariantAlsoNegotiates();
         $this->assertEquals(VariantAlsoNegotiates::STATUS_VARIANT_ALSO_NEGOTIATES, $exception->getHttpStatusCode());
     }
-
 }

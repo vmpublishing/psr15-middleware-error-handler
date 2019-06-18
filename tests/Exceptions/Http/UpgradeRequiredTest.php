@@ -14,5 +14,4 @@ class UpgradeRequiredTest extends TestCase
         $exception = new UpgradeRequired();
         $this->assertEquals(UpgradeRequired::STATUS_UPGRADE_REQUIRED, $exception->getHttpStatusCode());
     }
-
 }

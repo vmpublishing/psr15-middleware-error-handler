@@ -14,5 +14,4 @@ class PreconditionFailedTest extends TestCase
         $exception = new PreconditionFailed();
         $this->assertEquals(PreconditionFailed::STATUS_PRECONDITION_FAILED, $exception->getHttpStatusCode());
     }
-
 }

@@ -14,5 +14,4 @@ class BadGatewayTest extends TestCase
         $exception = new BadGateway();
         $this->assertEquals(BadGateway::STATUS_BAD_GATEWAY, $exception->getHttpStatusCode());
     }
-
 }

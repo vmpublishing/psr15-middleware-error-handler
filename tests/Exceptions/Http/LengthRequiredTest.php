@@ -14,5 +14,4 @@ class LengthRequiredTest extends TestCase
         $exception = new LengthRequired();
         $this->assertEquals(LengthRequired::STATUS_LENGTH_REQUIRED, $exception->getHttpStatusCode());
     }
-
 }

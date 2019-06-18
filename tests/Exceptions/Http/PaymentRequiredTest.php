@@ -14,5 +14,4 @@ class PaymentRequiredTest extends TestCase
         $exception = new PaymentRequired();
         $this->assertEquals(PaymentRequired::STATUS_PAYMENT_REQUIRED, $exception->getHttpStatusCode());
     }
-
 }

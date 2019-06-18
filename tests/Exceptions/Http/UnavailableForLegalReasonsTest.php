@@ -14,5 +14,4 @@ class UnavailableForLegalReasonsTest extends TestCase
         $exception = new UnavailableForLegalReasons();
         $this->assertEquals(UnavailableForLegalReasons::STATUS_UNAVAILABLE_FOR_LEGAL_REASONS, $exception->getHttpStatusCode());
     }
-
 }

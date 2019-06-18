@@ -14,5 +14,4 @@ class UnprocessableEntityTest extends TestCase
         $exception = new UnprocessableEntity();
         $this->assertEquals(UnprocessableEntity::STATUS_UNPROCESSABLE_ENTITY, $exception->getHttpStatusCode());
     }
-
 }
